@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: rocket.RocketTest
+Test set: rocket.RocketStage2Test
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in rocket.RocketTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in rocket.RocketStage2Test

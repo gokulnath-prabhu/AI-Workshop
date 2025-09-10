@@ -1,1 +1,5 @@
+rocket/Engine.class
+rocket/AlphaEngine.class
+rocket/Rocket$Status.class
 rocket/Rocket.class
+rocket/BetaEngine.class
