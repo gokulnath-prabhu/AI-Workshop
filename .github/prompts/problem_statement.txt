@@ -32,3 +32,34 @@ It must first confirm the rocket is ready.
 It must then check if the rocket is light enough for the engine to lift.
 
 If all checks pass, it should initiate the launch sequence and update the rocket's status. Otherwise, it should indicate a failure.
+
+Stage 3: Loading Cargo
+
+Objective: Allow rockets to carry cargo, which adds to their total mass.
+
+Requirements:
+
+Cargo Hold: A rocket has a way to track its cargo.
+
+Loading: Create a function to load_item(item_mass). This function adds cargo to the rocket.
+
+Launch Impact: The start_liftoff() function must now account for the extra mass from cargo.
+
+//cargo
+//rocket weight
+//impact -> rocket
+
+
+Stage 4: Mission Report
+
+Objective: Report the final status of the mission after a launch attempt.
+
+Requirements:
+
+Mission Outcomes: A launch can result in different outcomes.
+
+Risky Launches: Some launches are considered "risky" and may not succeed.
+
+Launch Outcome: The start_liftoff() function should be updated to handle both normal and risky launches.
+
+Final Report: Create a function get_mission_summary() that reports the outcome of the mission.

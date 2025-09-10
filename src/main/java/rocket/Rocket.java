@@ -8,6 +8,7 @@ public class Rocket {
     private int fuelLevel; // 0-100 (%)
     private final Engine engine;
     private Status status;
+    private int cargoMass = 0;
 
     public Rocket(String model, int baseMass, int fuelLevel, Engine engine) {
         this.model = model;
@@ -38,8 +39,13 @@ public class Rocket {
         return engine;
     }
 
+
+    public int getCargoMass() {
+        return cargoMass;
+    }
+
     public int getLaunchMass() {
-        return baseMass + (engine != null ? engine.getMass() : 0);
+        return baseMass + (engine != null ? engine.getMass() : 0) + cargoMass;
     }
 
     public Status getStatus() {
@@ -61,5 +67,15 @@ public class Rocket {
         }
         status = Status.LAUNCHED;
         return true;
+    }
+
+    public void loadItem(int itemMass) {
+        if (status == Status.LAUNCHED) {
+            throw new IllegalStateException("Cannot load cargo after launch");
+        }
+        if (itemMass <= 0) {
+            throw new IllegalArgumentException("Cargo mass must be positive");
+        }
+        cargoMass += itemMass;
     }
 }

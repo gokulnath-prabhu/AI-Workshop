@@ -1,8 +1,7 @@
 ---
-title: New Controller 
 description: Create a new REST controller endpoint in a Spring Boot 17 application using Java records for DTOs
-mode: agent
-model: Claude Sonnet 3.7
+mode: creator
+model: Claude Sonnet 3.5
 ---
 
 Goal:
