@@ -1,0 +1,23 @@
+Title:
+Quick Re-Ordering Button (Home page / App launch idea)
+
+Background
+	•	Users told us in feedback (survey in Q2, check CX doc?) that they usually order the same meals 3–4 times a week.
+	•	Right now they go through the entire browsing/cart flow again which is “too long”.
+	•	Competitors (see Swiggy, Zomato – they already have “repeat order” in some form, I think UberEats too but not sure).
+	•	This feature should increase re-ordering rate and improve DAU/MAU.
+
+Scope
+	•	Logged-in users only; guest user handling still TBD.
+	•	Button/banner fetches last successful (not cancelled) order.
+	•	Pre-fill cart, last payment auto-selected, last address copied; out-of-stock not defined.
+
+Non-Functional
+	•	Flow must be completed in ≤3 taps.
+	•	Mobile app only (iOS + Android); web excluded for MVP.
+	•	Success measured by increase in average weekly orders (baseline 1.7).
+
+Risks / Open Questions
+	•	Corporate/bulk orders: unclear if supported.
+	•	Promotions/coupons auto-apply not yet decided.
+	•	Edge cases: expired cards, alcohol reorders needing legal reconfirmation.
