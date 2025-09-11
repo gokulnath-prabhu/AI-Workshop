@@ -1,0 +1,28 @@
+.emptyState {
+  text-align: center;
+  margin-top: 40px;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  color: #222;
+}
+
+.emptyStateText {
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #222;
+  font-weight: 500;
+}
+
+.addButton {
+  font-size: 18px;
+  padding: 10px 28px;
+  background: #0070f3;
+  color: #fff;
+  border: 2px solid #0051a8;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  font-weight: 600;
+}
