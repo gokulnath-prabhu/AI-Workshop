@@ -72,7 +72,7 @@ Prompt Engineering
 
 ## Spec Driven Development
 
--   Spec Kit: <https://github.com/gokulnath-prabhu/AI-Workshop>
+-   Spec Kit: <https://github.com/github/spec-kitp>
 
 -   Install UV package: brew install uv
 
